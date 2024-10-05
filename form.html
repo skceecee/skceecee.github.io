@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div id="wrapper">
+
+
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/challenge.html">Challenge</a></li>
+                <li><a href="#">Recipe</a></li>
+                <li><a href="/form.html">Form</a></li>
+            </ul>
+        </nav>
+
+    <header>
+        <h1>Reserve Your Room</h1>
+        <h2>Our reservation policies:</h2>
+    </header>
+        
+     <section class="policies"></section>
+     <ul>
+        <li>Check-in time after 3:00 pm on</li>
+        <li>Check-out time by 11:00 am or charges are incurred</li>
+        <li>Breakfast and afternoon tea/snacks included in cost</li>
+        <li>Proof of COVID-19 Vaccination required. Upload image(s) below</li>
+        <li>50% deposit required at booking</li>
+        <li>Cancellations less than 72 hours ahead of check-in forfeit 50% of desposit</li>
+     </ul>
+
+
+     <section class="reserve">
+        <form method="post" name="reservation" data-netlify="true">
+
+       <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" placeholder="first name" required>
+       </div>
+       
+       <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" placeholder="last name" required>
+       </div>
+
+        <div>
+         <label for="email">Email</label>
+         <input type="email" name="email" id="email" placeholder="email" required>
+        </div>
+
+        <div>
+        <label for="phone">Phone</label>
+        <input type="phone" name="phone" id="phone" placeholder="phone" required>
+        </div>
+
+        <div>
+        <label for="check-in">Check-in Date</label>
+        <input type="date" name="Check-in Date" id="date" placeholder="date" required>
+        </div>
+        
+        
+        <div>
+            <label for="check-in">Check-out Date</label>
+            <input type="date" name="Check-out Date" id="date" placeholder="date" required>
+            </div>
+          
+        <div>
+            <label for="Guests">Number of Guests (4 maximum)</label> <br>
+            <input type="text" required>
+        </div>
+        
+        <div>
+            <label for="Room">Room Type:</label>   
+            <select name="rooms" id="rooms">
+              <option value="Choose One">Choose One</option>
+            </select>
+           </div>
+        
+
+        <div>
+            <div>Ocean View (additional cost)</div>
+            <label for="view">Yes</label>
+            <input type="radio" name="view" id="yes" value="yes">
+
+            <label for="view">No</label>
+            <input type="radio" name="view" id="no" value="no">
+        </div>
+    
+        <!--Separate content to leave a space  -->
+
+        <div>
+            <label for="requests">List Allergies or Other requests</label> <br>
+            <input type="text" required>
+        </div>
+
+        <div>
+        <label for="Vaccination">Upload Vaccine Proof:</label>
+        <input type="file" id="Vaccination" name="Vaccination" accept="image/png, image/jpeg" />
+        </div>
+        
+        
+           
+          
+            <div>
+            <label for="checkbox">I agree to all the terms listed above</label>
+              <input type="checkbox" id="" name="" checked />
+            </div>
+          
+            <div>
+                <label for="pass">Create a password to return. Username is your email.</label>
+                <input type="password" id="pass" name="password" minlength="8" required />
+                <input type="submit" />
+                <input type="reset" />
+            </div>
+
+    </form>
+     </section>
+
+
+
+    </div>
+
+    <footer>
+        <p>
+          &copy; 2022 The Inn at Snowy River <br>
+          Stowe, VT <br>
+           
+        
+        </p>
+    </footer>
+</body>
+</html>
