@@ -1,0 +1,63 @@
+h1, h2{
+   
+    text-decoration: underline solid #863319 2px; 
+    text-underline-offset: 8px;
+}
+
+h3{
+    text-decoration: underline dotted #863319 5px; 
+    text-underline-offset: 8px;  
+}
+nav ul {
+      list-style-type: none;
+      margin: auto;
+      padding: 0;
+      overflow: hidden;
+      background-color: #e78131;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    display:block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+   
+}
+nav li a:hover{
+    background-color: #9D5C0D;  
+}
+
+.assignments a,
+footer a{
+    text-decoration: none;
+    color:#863319;
+}
+.assignments li{
+    list-style-type: none;
+}
+
+.assignments a:link,
+.assignments a:visited {
+    line-height: 1.6;
+}
+
+.assignments a:hover,
+.assignments a:active{
+    text-decoration: none;
+    color:#200802;
+}
+.assignments li::before{
+    content:"\1F341";
+    font-size: 1.6rem;
+}
+
+footer{
+    color:#863319;
+    line-height:80%;
+    font-weight: 500;
+}
