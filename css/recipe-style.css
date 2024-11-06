@@ -1,0 +1,70 @@
+
+html {
+  box-sizing: border-box;
+ 
+}
+
+
+   *,
+  * ::before , * ::after {
+  box-sizing: inherit; }
+
+  /*<uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 400 to 700
+*/
+.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.rochester-regular {
+  font-family: "Rochester", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  nav{
+   background-color: #c98226;
+   text-align: center;
+  }
+
+  nav li{
+      display: inline;
+  }
+
+  nav a{
+    padding: 20px;
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  nav a:link,
+  nav a:visited {
+   
+  }
+  nav a:hover,
+  nav a:active {
+    background-color: rgb(214, 169, 91);
+ 
+  }
+
+  main{
+    width:80%;
+    margin: 0 auto;
+  }
+
+  h1,
+  h2{
+    font-family: Lora;
+  }
+
+  h1{
+    font-size: 3rem;
+    margin: 6% 0;
+    text-align: center;
+    text-shadow: 3px;
+  }
