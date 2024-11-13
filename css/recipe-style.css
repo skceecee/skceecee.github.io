@@ -1,28 +1,18 @@
 
 html {
   box-sizing: border-box;
- 
+  font-family: 'Lora';
+  font-size: 1.20rem;
+  line-height: 125%;
+  color: #50504F;
 }
 
-
-   *,
-  * ::before , * ::after {
-  box-sizing: inherit; }
-
-  /*<uniquifier>: Use a unique and descriptive class name
- <weight>: Use a value from 400 to 700
-*/
-.lora-<uniquifier> {
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+*, 
+* ::before, 
+* ::after{
+    box-sizing: inherit;
 }
-.rochester-regular {
-  font-family: "Rochester", serif;
-  font-weight: 400;
-  font-style: normal;
-}
+  
 
   nav{
    background-color: #c98226;
@@ -44,12 +34,13 @@ html {
 
   nav a:link,
   nav a:visited {
-   
+   text-decoration: none;
   }
   nav a:hover,
   nav a:active {
     background-color: rgb(214, 169, 91);
- 
+    color:  #c98226;
+    text-decoration: wavy;
   }
 
   main{
@@ -58,13 +49,37 @@ html {
   }
 
   h1,
-  h2{
-    font-family: Lora;
+  h2,
+  h3 {
+    font-family: 'Rochester';
   }
 
   h1{
     font-size: 3rem;
     margin: 6% 0;
     text-align: center;
-    text-shadow: 3px;
+    text-shadow: 3px 5px 3px #ccc;
+    text-decoration: underline #d87529 2px; 
+    text-underline-offset: 10px;  
+  }
+
+  img{
+    float:left;
+    max-width: 30%;
+    margin-left:10%;
+    margin-right:10%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px #ccc;
+    shape-outside: circle(50%);
+  }
+
+  header h2{
+    margin-top: 8%;
+  }
+
+  .rate{
+    clear:both;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.2rem;
   }
