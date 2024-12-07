@@ -159,7 +159,32 @@ blockquote small{
   html {
       font-size: 1rem;
   }
+ nav {
+  padding: 10px;
+  letter-spacing: normal;
+  font-size: .12rem;
+ }
+ nav ul{
+  padding-left: 15px;
+ }
+main{
+  width: 100%;
+}
 
+h1{
+  font-size:1.7rem;
+  text-shadow: none;
+}
+
+h2{
+  font-size:1.4rem;
+}
+
+img{
+  float:none;
+  max-width: 80%;
+  margin-left: 40%;
+}
 }
 
 @media (max-width: 360px) {
