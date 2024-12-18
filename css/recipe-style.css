@@ -38,7 +38,7 @@ html {
   }
   nav a:hover,
   nav a:active {
-    background-color: rgb(214, 169, 91);
+    background-color: #d6a95b;
     color:  #c98226;
     text-decoration: wavy;
   }

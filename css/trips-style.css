@@ -1,0 +1,136 @@
+html{
+    box-sizing: border-box;
+    line-height:125%;
+}
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+nav{
+  background-color: #0088ff;
+  text-align: center;
+}
+
+nav li{
+  display: inline;
+}
+
+nav a{
+  padding: 20px;
+  display: inline-block;
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav a:link, 
+nav a:visited {
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+  background-color:#90c4f2; 
+  color: #0088ff;
+  text-decoration: wavy;
+}
+h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  margin: 6% 0;
+  text-align: center;
+  text-decoration: underline #f4ae38 2px; 
+  text-underline-offset: 10px;   
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    
+}
+/* Float three columns side by side */
+.column {
+    float:left;
+    padding: 20px;
+    margin-right: 5px;
+    
+    
+  
+   
+  }
+.card{
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+   
+}
+.card button{
+    border: none;
+    padding: 12px;
+    color: black;
+    background-color:  #f4ae38;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card button:hover{
+    background-color: #fcba48;
+}
+.card2{
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    
+    
+}
+.card2 button{
+    border: none;
+    padding: 12px;
+    color: black;
+    background-color:  #f4ae38;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card2 button:hover{
+    background-color: #fcba48;
+}
+.card3{
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+.card3 button{
+    border: none;
+    padding: 12px;
+    color: black;
+    background-color:  #f4ae38;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card3 button:hover{
+    background-color: #fcba48;
+}
+footer{
+    background-color: #0088ff;
+    color:white;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
